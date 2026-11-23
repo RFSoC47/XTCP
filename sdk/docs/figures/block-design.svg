@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 1025 394"
+     preserveAspectRatio="xMidYMid meet"
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     xml:space="preserve">
+<title>user_endpoint_imp</title>
+<desc>Nlview schematic (SVG)</desc>
+<clipPath id="clippingbbox">
+<rect x="0" y="0" width="1025" height="394" />
+</clipPath>
+<g stroke="#102235"
+   stroke-width="1"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-miterlimit="4"
+   stroke-dasharray="none"
+   stroke-dashoffset="0"
+   fill="none"
+   font-family="Helvetica"
+   font-style="normal"
+   font-size="12"
+   writing-mode="lr-tb"
+   cursor="crosshair"
+   clip-path="url(#clippingbbox)">
+<path d="M0 0h1024v395h-1024z" stroke="none" fill="white" />
+<path d="M256 77l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<g>
+<path d="M256 77l-7 7h-14v-14h14z" />
+<text x="231" y="77" fill="black" stroke-width="0" text-anchor="end" dy="4.4">APP_CLK</text>
+<path d="M256 97l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 97l-7 7h-14v-14h14z" />
+<text x="231" y="97" fill="black" stroke-width="0" text-anchor="end" dy="4.4">APP_RST</text>
+<path d="M256 117l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 117l-7 7h-14v-14h14z" />
+<text x="231" y="117" fill="black" stroke-width="0" text-anchor="end" dy="4.4">LINE_CLK</text>
+<path d="M256 137l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 137l-7 7h-14v-14h14z" />
+<text x="231" y="137" fill="black" stroke-width="0" text-anchor="end" dy="4.4">LINE_RST</text>
+<path d="M256 157l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M256 157l-7 7h-14v-14h14z" />
+<text x="231" y="157" fill="black" stroke-width="0" text-anchor="end" dy="4.4">XGMII_RXD[63:0]</text>
+<path d="M256 177l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 177l-7 7h-14v-14h14z" />
+<text x="231" y="177" fill="black" stroke-width="0" text-anchor="end" dy="4.4">XGMII_RXC[7:0]</text>
+<path d="M256 197l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g>
+<path d="M256 197l-7 7h-14v-14h14z" />
+<text x="231" y="197" fill="black" stroke-width="0" text-anchor="end" dy="4.4">RBCP_ACK</text>
+<path d="M256 217l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M256 217l-7 7h-14v-14h14z" />
+<text x="231" y="217" fill="black" stroke-width="0" text-anchor="end" dy="4.4">RBCP_RD[7:0]</text>
+<path d="M256 237l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g>
+<path d="M256 237l-7 7h-14v-14h14z" />
+<text x="231" y="237" fill="black" stroke-width="0" text-anchor="end" dy="4.4">USER_SESSION_CLOSE_ACK</text>
+<path d="M256 257l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M256 257l-7 7h-14v-14h14z" />
+<text x="231" y="257" fill="black" stroke-width="0" text-anchor="end" dy="4.4">USER_TX_D[127:0]</text>
+<path d="M256 277l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 277l-7 7h-14v-14h14z" />
+<text x="231" y="277" fill="black" stroke-width="0" text-anchor="end" dy="4.4">USER_TX_B[4:0]</text>
+<path d="M256 297l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 297l-7 7h-14v-14h14z" />
+<text x="231" y="297" fill="black" stroke-width="0" text-anchor="end" dy="4.4">USER_RX_SIZE[18:0]</text>
+<path d="M256 317l-7 7h-14v-14h14z" stroke="none" fill="#ddd4d0" />
+<path d="M256 317l-7 7h-14v-14h14z" />
+<text x="231" y="317" fill="black" stroke-width="0" text-anchor="end" dy="4.4">USER_RX_RADR[18:0]</text>
+<path d="M313 29h386l3 1l2 1l1 2l1 3v322l-1 3l-1 2l-2 1l-3 1h-386l-3 -1l-2 -1l-1 -2l-1 -3v-322l1 -3l1 -2l2 -1z" stroke="none" fill="#edf6fe" />
+<text x="506" y="27" fill="black" stroke-width="0" text-anchor="middle" dy="-1.6">endpoint</text>
+<text x="506" y="367" fill="#41619f" stroke-width="0" text-anchor="middle" dy="9.6">XTCP</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M296 77h10" />
+<text x="308" y="77" fill="black" stroke-width="0" font-size="10" dy="3.66667">APP_CLK</text>
+<path d="M296 97h10" />
+<text x="308" y="97" fill="black" stroke-width="0" font-size="10" dy="3.66667">APP_RST</text>
+<path d="M296 117h10" />
+<text x="308" y="117" fill="black" stroke-width="0" font-size="10" dy="3.66667">LINE_CLK</text>
+<path d="M296 137h10" />
+<text x="308" y="137" fill="black" stroke-width="0" font-size="10" dy="3.66667">LINE_RST</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M296 157h10" />
+<text x="308" y="157" fill="black" stroke-width="0" font-size="10" dy="3.66667">XGMII_RXD[63:0]</text>
+<path d="M296 177h10" />
+<text x="308" y="177" fill="black" stroke-width="0" font-size="10" dy="3.66667">XGMII_RXC[7:0]</text>
+<path d="M716 57h-10" />
+<text x="704" y="57" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">XGMII_TXD[63:0]</text>
+<path d="M716 77h-10" />
+<text x="704" y="77" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">XGMII_TXC[7:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M716 97h-10" />
+<text x="704" y="97" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">APP_RESET_OUT</text>
+<path d="M716 117h-10" />
+<text x="704" y="117" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">RBCP_ACT</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M716 137h-10" />
+<text x="704" y="137" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">RBCP_ADDR[31:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M716 157h-10" />
+<text x="704" y="157" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">RBCP_WE</text>
+<path d="M716 177h-10" />
+<text x="704" y="177" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">RBCP_RE</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M716 197h-10" />
+<text x="704" y="197" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">RBCP_WD[7:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M296 197h10" />
+<text x="308" y="197" fill="black" stroke-width="0" font-size="10" dy="3.66667">RBCP_ACK</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M296 217h10" />
+<text x="308" y="217" fill="black" stroke-width="0" font-size="10" dy="3.66667">RBCP_RD[7:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M716 217h-10" />
+<text x="704" y="217" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_SESSION_ESTABLISHED</text>
+<path d="M716 237h-10" />
+<text x="704" y="237" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_SESSION_CLOSE_REQ</text>
+<path d="M296 237h10" />
+<text x="308" y="237" fill="black" stroke-width="0" font-size="10" dy="3.66667">USER_SESSION_CLOSE_ACK</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M296 257h10" />
+<text x="308" y="257" fill="black" stroke-width="0" font-size="10" dy="3.66667">USER_TX_D[127:0]</text>
+<path d="M296 277h10" />
+<text x="308" y="277" fill="black" stroke-width="0" font-size="10" dy="3.66667">USER_TX_B[4:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M716 257h-10" />
+<text x="704" y="257" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_TX_AFULL</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M296 297h10" />
+<text x="308" y="297" fill="black" stroke-width="0" font-size="10" dy="3.66667">USER_RX_SIZE[18:0]</text>
+<path d="M296 317h10" />
+<text x="308" y="317" fill="black" stroke-width="0" font-size="10" dy="3.66667">USER_RX_RADR[18:0]</text>
+</g>
+<g stroke="black" stroke-width="3">
+<path d="M716 277h-10" />
+<text x="704" y="277" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_RX_CLR_ENB</text>
+</g>
+<g stroke="black" stroke-width="5">
+<path d="M716 297h-10" />
+<text x="704" y="297" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_RX_WADR[18:0]</text>
+<path d="M716 317h-10" />
+<text x="704" y="317" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_RX_WENB[15:0]</text>
+<path d="M716 337h-10" />
+<text x="704" y="337" fill="black" stroke-width="0" font-size="10" text-anchor="end" dy="3.66667">USER_RX_WDAT[127:0]</text>
+</g>
+<g stroke="#41619f">
+<path d="M313 29h386" />
+<path d="M699,29 A6.83537,6.83537 1.61957 0,1 706,36" />
+<path d="M706 36v322" />
+<path d="M706,358 A6.83537,6.83537 1.61957 0,1 699,365" />
+<path d="M699 365h-386" />
+<path d="M313,365 A6.83537,6.83537 1.61957 0,1 306,358" />
+<path d="M306 358v-322" />
+<path d="M306,36 A6.83537,6.83537 1.61957 0,1 313,29" />
+<path d="M756 57v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M756 57v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="57" fill="black" stroke-width="0" dy="4.4">XGMII_TXD[63:0]</text>
+<path d="M756 77v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 77v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="77" fill="black" stroke-width="0" dy="4.4">XGMII_TXC[7:0]</text>
+<path d="M756 97v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g>
+<path d="M756 97v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="97" fill="black" stroke-width="0" dy="4.4">APP_RESET_OUT</text>
+<path d="M756 117v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 117v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="117" fill="black" stroke-width="0" dy="4.4">RBCP_ACT</text>
+<path d="M756 137v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M756 137v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="137" fill="black" stroke-width="0" dy="4.4">RBCP_ADDR[31:0]</text>
+<path d="M756 157v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g>
+<path d="M756 157v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="157" fill="black" stroke-width="0" dy="4.4">RBCP_WE</text>
+<path d="M756 177v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 177v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="177" fill="black" stroke-width="0" dy="4.4">RBCP_RE</text>
+<path d="M756 197v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M756 197v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="197" fill="black" stroke-width="0" dy="4.4">RBCP_WD[7:0]</text>
+<path d="M756 217v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g>
+<path d="M756 217v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="217" fill="black" stroke-width="0" dy="4.4">USER_SESSION_ESTABLISHED</text>
+<path d="M756 237v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 237v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="237" fill="black" stroke-width="0" dy="4.4">USER_SESSION_CLOSE_REQ</text>
+<path d="M756 257v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 257v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="257" fill="black" stroke-width="0" dy="4.4">USER_TX_AFULL</text>
+<path d="M756 277v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 277v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="277" fill="black" stroke-width="0" dy="4.4">USER_RX_CLR_ENB</text>
+<path d="M756 297v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+</g>
+<g stroke-width="3">
+<path d="M756 297v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="297" fill="black" stroke-width="0" dy="4.4">USER_RX_WADR[18:0]</text>
+<path d="M756 317v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 317v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="317" fill="black" stroke-width="0" dy="4.4">USER_RX_WENB[15:0]</text>
+<path d="M756 337v-7h14l7 7l-7 7h-14z" stroke="none" fill="#ddd4d0" />
+<path d="M756 337v-7h14l7 7l-7 7h-14z" />
+<text x="781" y="337" fill="black" stroke-width="0" dy="4.4">USER_RX_WDAT[127:0]</text>
+</g>
+<g>
+<path d="M256 77h40" />
+<path d="M256 97h40" />
+<path d="M256 117h40" />
+<path d="M256 137h40" />
+<path d="M256 197h40" />
+</g>
+<g stroke-width="3">
+<path d="M256 217h40" />
+<path d="M256 317h40" />
+<path d="M256 297h40" />
+</g>
+<g>
+<path d="M256 237h40" />
+</g>
+<g stroke-width="3">
+<path d="M256 277h40" />
+<path d="M256 257h40" />
+<path d="M256 177h40" />
+<path d="M256 157h40" />
+</g>
+<g>
+<path d="M716 97h40" />
+<path d="M716 117h40" />
+</g>
+<g stroke-width="3">
+<path d="M716 137h40" />
+</g>
+<g>
+<path d="M716 177h40" />
+</g>
+<g stroke-width="3">
+<path d="M716 197h40" />
+</g>
+<g>
+<path d="M716 157h40" />
+<path d="M716 277h40" />
+</g>
+<g stroke-width="3">
+<path d="M716 297h40" />
+<path d="M716 337h40" />
+<path d="M716 317h40" />
+</g>
+<g>
+<path d="M716 237h40" />
+<path d="M716 217h40" />
+<path d="M716 257h40" />
+</g>
+<g stroke-width="3">
+<path d="M716 77h40" />
+<path d="M716 57h40" />
+</g>
+</g>
+</svg>

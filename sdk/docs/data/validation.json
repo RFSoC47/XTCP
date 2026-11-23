@@ -1,0 +1,1929 @@
+{
+  "tool": "Vivado 2025.2",
+  "part": "xcku5p-ffvb676-2-i",
+  "models": [
+    {
+      "model": "XTCP-10G",
+      "profile": 0,
+      "integration": "RTL",
+      "identity": {
+        "mac": "02:51:00:03:00:11",
+        "ip": "192.168.10.11",
+        "tcp": 23010,
+        "udp": 4610
+      },
+      "products": {
+        "xtcp_rdx051.bit": "dafaf0a6f8caa15b275b795ba02abaec40bd02bfcc41e07aad2da21fa3aa9c6d",
+        "xtcp_rdx051.ltx": "9031008e41e0d7f24a256a2dbe5ef31665d4ea89881fe9b7fdc55cfa74f14e15"
+      },
+      "routed": {
+        "board": {
+          "LUT": 17095,
+          "logic_LUT": 15827,
+          "LUTRAM": 1268,
+          "SRL": 0,
+          "FF": 13416,
+          "RAMB36": 146,
+          "RAMB18": 0,
+          "URAM": 4,
+          "DSP": 1
+        },
+        "app": {
+          "LUT": 689,
+          "logic_LUT": 689,
+          "LUTRAM": 0,
+          "SRL": 0,
+          "FF": 1059,
+          "RAMB36": 64,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "phy": {
+          "LUT": 1661,
+          "logic_LUT": 1613,
+          "LUTRAM": 48,
+          "SRL": 0,
+          "FF": 2307,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "core": {
+          "LUT": 14156,
+          "logic_LUT": 12956,
+          "LUTRAM": 1200,
+          "SRL": 0,
+          "FF": 8807,
+          "RAMB36": 82,
+          "RAMB18": 0,
+          "URAM": 4,
+          "DSP": 1
+        }
+      },
+      "timing": {
+        "wns_ns": 0.043,
+        "whs_ns": 0.011,
+        "tns_ns": 0.0,
+        "ths_ns": 0.0,
+        "wpws_ns": 0.455,
+        "unconstrained_internal_endpoints": 0
+      },
+      "route": {
+        "fully_routed_nets": 30279,
+        "routable_nets": 30279,
+        "routing_errors": 0
+      },
+      "wire": {
+        "wire_sha256": "7c272a3c4d80076d2ed044ec2f27debe5968c0817a7c81e4ff5cb5ce97972350",
+        "payload_bytes": 1478,
+        "segment_bytes": {
+          "IN": [
+            1,
+            17,
+            1460
+          ],
+          "OUT": [
+            1,
+            17,
+            1460
+          ]
+        },
+        "control_frames": 10
+      },
+      "checks": {
+        "drc": {
+          "DPIP-2": 1,
+          "DPOP-3": 1,
+          "DPOP-4": 1,
+          "PDCN-1569": 3,
+          "RTSTAT-10": 1
+        },
+        "methodology": {
+          "CLKC-56": 1,
+          "LUTAR-1": 12,
+          "SYNTH-6": 88,
+          "TIMING-28": 5,
+          "TIMING-9": 1
+        }
+      }
+    },
+    {
+      "model": "XTCP-25G",
+      "profile": 1,
+      "integration": "IP Catalog",
+      "identity": {
+        "mac": "02:51:00:03:00:12",
+        "ip": "192.168.10.12",
+        "tcp": 23011,
+        "udp": 4611
+      },
+      "products": {
+        "xtcp_rdx051.bit": "26facb589fe041e09cc0cb7fbdf814c5dcdeb48aa97c323f2ff589ac5e9fca28",
+        "xtcp_rdx051.ltx": "9031008e41e0d7f24a256a2dbe5ef31665d4ea89881fe9b7fdc55cfa74f14e15"
+      },
+      "routed": {
+        "board": {
+          "LUT": 26740,
+          "logic_LUT": 19320,
+          "LUTRAM": 7398,
+          "SRL": 22,
+          "FF": 16129,
+          "RAMB36": 326,
+          "RAMB18": 2,
+          "URAM": 4,
+          "DSP": 1
+        },
+        "app": {
+          "LUT": 1319,
+          "logic_LUT": 1319,
+          "LUTRAM": 0,
+          "SRL": 0,
+          "FF": 1270,
+          "RAMB36": 128,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "phy": {
+          "LUT": 1623,
+          "logic_LUT": 1575,
+          "LUTRAM": 48,
+          "SRL": 0,
+          "FF": 2340,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "core": {
+          "LUT": 23215,
+          "logic_LUT": 15863,
+          "LUTRAM": 7330,
+          "SRL": 22,
+          "FF": 11272,
+          "RAMB36": 198,
+          "RAMB18": 2,
+          "URAM": 4,
+          "DSP": 1
+        }
+      },
+      "timing": {
+        "wns_ns": 0.127,
+        "whs_ns": 0.012,
+        "tns_ns": 0.0,
+        "ths_ns": 0.0,
+        "wpws_ns": 0.4,
+        "unconstrained_internal_endpoints": 0
+      },
+      "route": {
+        "fully_routed_nets": 40894,
+        "routable_nets": 40894,
+        "routing_errors": 0
+      },
+      "wire": {
+        "wire_sha256": "bf2eef610e8db645806ea2267b0a61bb6e55974395caf780c1a8e7e5c1e3716c",
+        "payload_bytes": 1478,
+        "segment_bytes": {
+          "IN": [
+            1,
+            17,
+            1460
+          ],
+          "OUT": [
+            1,
+            17,
+            1460
+          ]
+        },
+        "control_frames": 10
+      },
+      "checks": {
+        "drc": {
+          "DPIP-2": 1,
+          "DPOP-3": 1,
+          "DPOP-4": 1,
+          "PDCN-1569": 3,
+          "RTSTAT-10": 1
+        },
+        "methodology": {
+          "CLKC-26": 1,
+          "CLKC-30": 1,
+          "CLKC-56": 2,
+          "LUTAR-1": 12,
+          "SYNTH-5": 4,
+          "SYNTH-6": 208,
+          "TIMING-28": 5,
+          "TIMING-9": 1
+        }
+      }
+    },
+    {
+      "model": "XTCP-25G-Jumbo",
+      "profile": 2,
+      "integration": "Block Design",
+      "identity": {
+        "mac": "02:51:00:03:00:13",
+        "ip": "192.168.10.13",
+        "tcp": 23012,
+        "udp": 4612
+      },
+      "products": {
+        "xtcp_rdx051.bit": "bf3c3c8bbc313e737ac6d21719e8417968144d7ccc11a5ffea3e763181801f5e",
+        "xtcp_rdx051.ltx": "9031008e41e0d7f24a256a2dbe5ef31665d4ea89881fe9b7fdc55cfa74f14e15"
+      },
+      "routed": {
+        "board": {
+          "LUT": 26851,
+          "logic_LUT": 19369,
+          "LUTRAM": 7460,
+          "SRL": 22,
+          "FF": 16078,
+          "RAMB36": 344,
+          "RAMB18": 2,
+          "URAM": 32,
+          "DSP": 1
+        },
+        "app": {
+          "LUT": 1265,
+          "logic_LUT": 1265,
+          "LUTRAM": 0,
+          "SRL": 0,
+          "FF": 1271,
+          "RAMB36": 128,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "phy": {
+          "LUT": 1616,
+          "logic_LUT": 1568,
+          "LUTRAM": 48,
+          "SRL": 0,
+          "FF": 2333,
+          "RAMB36": 0,
+          "RAMB18": 0,
+          "URAM": 0,
+          "DSP": 0
+        },
+        "core": {
+          "LUT": 23385,
+          "logic_LUT": 15971,
+          "LUTRAM": 7392,
+          "SRL": 22,
+          "FF": 11227,
+          "RAMB36": 216,
+          "RAMB18": 2,
+          "URAM": 32,
+          "DSP": 1
+        }
+      },
+      "timing": {
+        "wns_ns": 0.032,
+        "whs_ns": 0.014,
+        "tns_ns": 0.0,
+        "ths_ns": 0.0,
+        "wpws_ns": 0.4,
+        "unconstrained_internal_endpoints": 0
+      },
+      "route": {
+        "fully_routed_nets": 51075,
+        "routable_nets": 51075,
+        "routing_errors": 0
+      },
+      "wire": {
+        "wire_sha256": "89ebfb84a11e3d1687616d59b5d18eebc71e904bd39e7f1cb6187f2c7730ed88",
+        "payload_bytes": 10438,
+        "segment_bytes": {
+          "IN": [
+            1,
+            17,
+            1460,
+            8960
+          ],
+          "OUT": [
+            1,
+            17,
+            1460,
+            8192,
+            768
+          ]
+        },
+        "control_frames": 10
+      },
+      "checks": {
+        "drc": {
+          "DPIP-2": 1,
+          "DPOP-3": 1,
+          "DPOP-4": 1,
+          "PDCN-1569": 3,
+          "RTSTAT-10": 1
+        },
+        "methodology": {
+          "CLKC-26": 1,
+          "CLKC-30": 1,
+          "CLKC-56": 2,
+          "LUTAR-1": 12,
+          "SYNTH-6": 16,
+          "TIMING-28": 5,
+          "TIMING-9": 1
+        }
+      }
+    }
+  ],
+  "tests": [
+    {
+      "profile": 0,
+      "model": "XTCP-10G",
+      "mtu": 1500,
+      "speed_Mbps": 10000,
+      "identity": {
+        "profile": 0,
+        "mac": "02:51:00:03:00:11",
+        "ip": "192.168.10.11",
+        "tcp": 23010,
+        "udp": 4610,
+        "phy": 14371
+      },
+      "kernel": "6.17.0-14-generic",
+      "basic": [
+        {
+          "mode": "echo",
+          "bytes": 1,
+          "fpga_tx": 1,
+          "fpga_rx": 1,
+          "compared_bytes": 1
+        },
+        {
+          "mode": "echo",
+          "bytes": 7,
+          "fpga_tx": 7,
+          "fpga_rx": 7,
+          "compared_bytes": 7
+        },
+        {
+          "mode": "echo",
+          "bytes": 8,
+          "fpga_tx": 8,
+          "fpga_rx": 8,
+          "compared_bytes": 8
+        },
+        {
+          "mode": "echo",
+          "bytes": 15,
+          "fpga_tx": 15,
+          "fpga_rx": 15,
+          "compared_bytes": 15
+        },
+        {
+          "mode": "echo",
+          "bytes": 16,
+          "fpga_tx": 16,
+          "fpga_rx": 16,
+          "compared_bytes": 16
+        },
+        {
+          "mode": "echo",
+          "bytes": 17,
+          "fpga_tx": 17,
+          "fpga_rx": 17,
+          "compared_bytes": 17
+        },
+        {
+          "mode": "echo",
+          "bytes": 1460,
+          "fpga_tx": 1460,
+          "fpga_rx": 1460,
+          "compared_bytes": 1460
+        },
+        {
+          "mode": "echo",
+          "bytes": 1461,
+          "fpga_tx": 1461,
+          "fpga_rx": 1461,
+          "compared_bytes": 1461
+        },
+        {
+          "mode": "echo",
+          "bytes": 8960,
+          "fpga_tx": 8960,
+          "fpga_rx": 8960,
+          "compared_bytes": 8960
+        },
+        {
+          "mode": "echo",
+          "bytes": 8961,
+          "fpga_tx": 8961,
+          "fpga_rx": 8961,
+          "compared_bytes": 8961
+        },
+        {
+          "mode": "echo",
+          "bytes": 65539,
+          "fpga_tx": 65539,
+          "fpga_rx": 65539,
+          "compared_bytes": 65539
+        },
+        {
+          "mode": "receive",
+          "bytes": 1048593,
+          "fpga_tx": 1048593,
+          "fpga_rx": 0,
+          "compared_bytes": 1048593
+        },
+        {
+          "mode": "send",
+          "bytes": 1048593,
+          "fpga_tx": 0,
+          "fpga_rx": 1048593,
+          "compared_bytes": 0
+        }
+      ],
+      "modes": {
+        "receive": {
+          "Gbps": {
+            "median": 9.487036021648427,
+            "minimum": 9.476391778342377,
+            "maximum": 9.48777424988818
+          },
+          "process_cpu_pct": {
+            "median": 25.265085880204158,
+            "minimum": 25.228724944893532,
+            "maximum": 28.379692662665526
+          },
+          "host_busy_cores": {
+            "median": 0.4405820194970854,
+            "minimum": 0.4327973236253282,
+            "maximum": 0.5041751389139124
+          },
+          "irq_cores": {
+            "median": 0.20950698468487222,
+            "minimum": 0.1962195135232524,
+            "maximum": 0.22573029393986474
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.476391778342377,
+              "seconds": 3.62582503,
+              "process_cpu_pct": 28.379692662665526,
+              "host_busy_cores": 0.5041751389139124,
+              "irq_cores": 0.1962195135232524,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 54139,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2941966,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.487036021648427,
+              "seconds": 3.621756935,
+              "process_cpu_pct": 25.265085880204158,
+              "host_busy_cores": 0.4405820194970854,
+              "irq_cores": 0.22573029393986474,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 57986,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2941825,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.48777424988818,
+              "seconds": 3.621475132,
+              "process_cpu_pct": 25.228724944893532,
+              "host_busy_cores": 0.4327973236253282,
+              "irq_cores": 0.20950698468487222,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 58428,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2941829,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            }
+          ]
+        },
+        "send": {
+          "Gbps": {
+            "median": 9.485997468320955,
+            "minimum": 9.476607759243914,
+            "maximum": 9.490350891952293
+          },
+          "process_cpu_pct": {
+            "median": 13.134092906618724,
+            "minimum": 12.413865651029793,
+            "maximum": 17.061857483965532
+          },
+          "host_busy_cores": {
+            "median": 0.3170245513085267,
+            "minimum": 0.2230143939473869,
+            "maximum": 0.3698951713225029
+          },
+          "irq_cores": {
+            "median": 0.19848493647142543,
+            "minimum": 0.05439375462131388,
+            "maximum": 0.2420637518213438
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.476607759243914,
+              "seconds": 3.625742394,
+              "process_cpu_pct": 17.061857483965532,
+              "host_busy_cores": 0.2230143939473869,
+              "irq_cores": 0.05439375462131388,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943903,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1471997,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.485997468320955,
+              "seconds": 3.622153455,
+              "process_cpu_pct": 13.134092906618724,
+              "host_busy_cores": 0.3698951713225029,
+              "irq_cores": 0.2420637518213438,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2941876,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1470955,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 9.490350891952293,
+              "seconds": 3.620491897,
+              "process_cpu_pct": 12.413865651029793,
+              "host_busy_cores": 0.3170245513085267,
+              "irq_cores": 0.19848493647142543,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2941796,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1470909,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            }
+          ]
+        },
+        "echo": {
+          "Gbps": {
+            "median": 9.42680133555722,
+            "minimum": 9.38874885932939,
+            "maximum": 9.429845720766453
+          },
+          "process_cpu_pct": {
+            "median": 79.55172495383238,
+            "minimum": 77.56286216956745,
+            "maximum": 86.84108612892537
+          },
+          "host_busy_cores": {
+            "median": 0.8383205549355961,
+            "minimum": 0.8053714625538086,
+            "maximum": 1.292264259542699
+          },
+          "irq_cores": {
+            "median": 0.07621095953959965,
+            "minimum": 0.051626375804731325,
+            "maximum": 0.44855453637019305
+          },
+          "trials": [
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 9.38874885932939,
+              "seconds": 0.914917936,
+              "process_cpu_pct": 79.55172495383238,
+              "host_busy_cores": 0.8053714625538086,
+              "irq_cores": 0.051626375804731325,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 752145,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 736520,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 9.429845720766453,
+              "seconds": 0.910930569,
+              "process_cpu_pct": 86.84108612892537,
+              "host_busy_cores": 1.292264259542699,
+              "irq_cores": 0.44855453637019305,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 754476,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 4,
+                "tx_frames": 736220,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 9.42680133555722,
+              "seconds": 0.911224754,
+              "process_cpu_pct": 77.56286216956745,
+              "host_busy_cores": 0.8383205549355961,
+              "irq_cores": 0.07621095953959965,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 754044,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 736181,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            }
+          ]
+        }
+      },
+      "nic_rx_crc_delta": 0,
+      "fpga_bad_fcs_during_native": 0,
+      "media": {
+        "vendor": "HUAWEI",
+        "part": "SFP-10G-SR",
+        "nominal": "10300MBd"
+      }
+    },
+    {
+      "profile": 1,
+      "model": "XTCP-25G",
+      "mtu": 1500,
+      "speed_Mbps": 25000,
+      "identity": {
+        "profile": 1,
+        "mac": "02:51:00:03:00:12",
+        "ip": "192.168.10.12",
+        "tcp": 23011,
+        "udp": 4611,
+        "phy": 14371
+      },
+      "kernel": "6.17.0-14-generic",
+      "basic": [
+        {
+          "mode": "echo",
+          "bytes": 1,
+          "fpga_tx": 1,
+          "fpga_rx": 1,
+          "compared_bytes": 1
+        },
+        {
+          "mode": "echo",
+          "bytes": 7,
+          "fpga_tx": 7,
+          "fpga_rx": 7,
+          "compared_bytes": 7
+        },
+        {
+          "mode": "echo",
+          "bytes": 8,
+          "fpga_tx": 8,
+          "fpga_rx": 8,
+          "compared_bytes": 8
+        },
+        {
+          "mode": "echo",
+          "bytes": 15,
+          "fpga_tx": 15,
+          "fpga_rx": 15,
+          "compared_bytes": 15
+        },
+        {
+          "mode": "echo",
+          "bytes": 16,
+          "fpga_tx": 16,
+          "fpga_rx": 16,
+          "compared_bytes": 16
+        },
+        {
+          "mode": "echo",
+          "bytes": 17,
+          "fpga_tx": 17,
+          "fpga_rx": 17,
+          "compared_bytes": 17
+        },
+        {
+          "mode": "echo",
+          "bytes": 1460,
+          "fpga_tx": 1460,
+          "fpga_rx": 1460,
+          "compared_bytes": 1460
+        },
+        {
+          "mode": "echo",
+          "bytes": 1461,
+          "fpga_tx": 1461,
+          "fpga_rx": 1461,
+          "compared_bytes": 1461
+        },
+        {
+          "mode": "echo",
+          "bytes": 8960,
+          "fpga_tx": 8960,
+          "fpga_rx": 8960,
+          "compared_bytes": 8960
+        },
+        {
+          "mode": "echo",
+          "bytes": 8961,
+          "fpga_tx": 8961,
+          "fpga_rx": 8961,
+          "compared_bytes": 8961
+        },
+        {
+          "mode": "echo",
+          "bytes": 65539,
+          "fpga_tx": 65539,
+          "fpga_rx": 65539,
+          "compared_bytes": 65539
+        },
+        {
+          "mode": "receive",
+          "bytes": 1048593,
+          "fpga_tx": 1048593,
+          "fpga_rx": 0,
+          "compared_bytes": 1048593
+        },
+        {
+          "mode": "send",
+          "bytes": 1048593,
+          "fpga_tx": 0,
+          "fpga_rx": 1048593,
+          "compared_bytes": 0
+        }
+      ],
+      "modes": {
+        "receive": {
+          "Gbps": {
+            "median": 23.44329946078507,
+            "minimum": 23.301246109535413,
+            "maximum": 23.482148325958814
+          },
+          "process_cpu_pct": {
+            "median": 61.894384096720586,
+            "minimum": 61.340929402067445,
+            "maximum": 63.784749878863366
+          },
+          "host_busy_cores": {
+            "median": 1.0818296719078988,
+            "minimum": 1.0318779141627124,
+            "maximum": 1.2037608295700952
+          },
+          "irq_cores": {
+            "median": 0.5168690567645606,
+            "minimum": 0.44225741304410954,
+            "maximum": 0.6178122543394583
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.482148325958814,
+              "seconds": 1.463228067,
+              "process_cpu_pct": 61.894384096720586,
+              "host_busy_cores": 1.0818296719078988,
+              "irq_cores": 0.44225741304410954,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 45820,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2941837,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.44329946078507,
+              "seconds": 1.465652843,
+              "process_cpu_pct": 63.784749878863366,
+              "host_busy_cores": 1.2037608295700952,
+              "irq_cores": 0.5168690567645606,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 45694,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2941946,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.301246109535413,
+              "seconds": 1.474588026,
+              "process_cpu_pct": 61.340929402067445,
+              "host_busy_cores": 1.0318779141627124,
+              "irq_cores": 0.6178122543394583,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 45179,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2942409,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            }
+          ]
+        },
+        "send": {
+          "Gbps": {
+            "median": 22.06832876470278,
+            "minimum": 22.04347175338233,
+            "maximum": 22.126382212806497
+          },
+          "process_cpu_pct": {
+            "median": 44.17373144265988,
+            "minimum": 43.68143484230878,
+            "maximum": 45.16424371728863
+          },
+          "host_busy_cores": {
+            "median": 0.5283097850402378,
+            "minimum": 0.5280736673504429,
+            "maximum": 0.5663227869840157
+          },
+          "irq_cores": {
+            "median": 0.07638213759617897,
+            "minimum": 0.06998566675728761,
+            "maximum": 0.12090037025501459
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 22.04347175338233,
+              "seconds": 1.55872627,
+              "process_cpu_pct": 43.68143484230878,
+              "host_busy_cores": 0.5283097850402378,
+              "irq_cores": 0.07638213759617897,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943550,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474068,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 22.126382212806497,
+              "seconds": 1.552885518,
+              "process_cpu_pct": 45.16424371728863,
+              "host_busy_cores": 0.5663227869840157,
+              "irq_cores": 0.12090037025501459,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943858,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474636,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 22.06832876470278,
+              "seconds": 1.556970574,
+              "process_cpu_pct": 44.17373144265988,
+              "host_busy_cores": 0.5280736673504429,
+              "irq_cores": 0.06998566675728761,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943686,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474259,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            }
+          ]
+        },
+        "echo": {
+          "Gbps": {
+            "median": 12.155226776263401,
+            "minimum": 9.852197616702485,
+            "maximum": 12.17161209069402
+          },
+          "process_cpu_pct": {
+            "median": 96.92162571407628,
+            "minimum": 93.36547879426921,
+            "maximum": 98.51836635821991
+          },
+          "host_busy_cores": {
+            "median": 1.3075623423106746,
+            "minimum": 1.3058223052826963,
+            "maximum": 1.3213239488435164
+          },
+          "irq_cores": {
+            "median": 0.34771682864303066,
+            "minimum": 0.3338457044197467,
+            "maximum": 0.5114470695690561
+          },
+          "trials": [
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 9.852197616702485,
+              "seconds": 0.871880068,
+              "process_cpu_pct": 93.36547879426921,
+              "host_busy_cores": 1.3058223052826963,
+              "irq_cores": 0.5114470695690561,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 772754,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 5,
+                "tx_frames": 916188,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 12.17161209069402,
+              "seconds": 0.70573517,
+              "process_cpu_pct": 96.92162571407628,
+              "host_busy_cores": 1.3075623423106746,
+              "irq_cores": 0.3338457044197467,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 765243,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 6,
+                "tx_frames": 845654,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 12.155226776263401,
+              "seconds": 0.706686505,
+              "process_cpu_pct": 98.51836635821991,
+              "host_busy_cores": 1.3213239488435164,
+              "irq_cores": 0.34771682864303066,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 762457,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 835333,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            }
+          ]
+        }
+      },
+      "nic_rx_crc_delta": 0,
+      "fpga_bad_fcs_during_native": 0,
+      "media": {
+        "vendor": "MODULETEK",
+        "part": "SFP-25G-AOC-5M",
+        "nominal": "26000MBd"
+      }
+    },
+    {
+      "profile": 2,
+      "model": "XTCP-25G-Jumbo",
+      "mtu": 1500,
+      "speed_Mbps": 25000,
+      "identity": {
+        "profile": 2,
+        "mac": "02:51:00:03:00:13",
+        "ip": "192.168.10.13",
+        "tcp": 23012,
+        "udp": 4612,
+        "phy": 14371
+      },
+      "kernel": "6.17.0-14-generic",
+      "basic": [
+        {
+          "mode": "echo",
+          "bytes": 1,
+          "fpga_tx": 1,
+          "fpga_rx": 1,
+          "compared_bytes": 1
+        },
+        {
+          "mode": "echo",
+          "bytes": 7,
+          "fpga_tx": 7,
+          "fpga_rx": 7,
+          "compared_bytes": 7
+        },
+        {
+          "mode": "echo",
+          "bytes": 8,
+          "fpga_tx": 8,
+          "fpga_rx": 8,
+          "compared_bytes": 8
+        },
+        {
+          "mode": "echo",
+          "bytes": 15,
+          "fpga_tx": 15,
+          "fpga_rx": 15,
+          "compared_bytes": 15
+        },
+        {
+          "mode": "echo",
+          "bytes": 16,
+          "fpga_tx": 16,
+          "fpga_rx": 16,
+          "compared_bytes": 16
+        },
+        {
+          "mode": "echo",
+          "bytes": 17,
+          "fpga_tx": 17,
+          "fpga_rx": 17,
+          "compared_bytes": 17
+        },
+        {
+          "mode": "echo",
+          "bytes": 1460,
+          "fpga_tx": 1460,
+          "fpga_rx": 1460,
+          "compared_bytes": 1460
+        },
+        {
+          "mode": "echo",
+          "bytes": 1461,
+          "fpga_tx": 1461,
+          "fpga_rx": 1461,
+          "compared_bytes": 1461
+        },
+        {
+          "mode": "echo",
+          "bytes": 8960,
+          "fpga_tx": 8960,
+          "fpga_rx": 8960,
+          "compared_bytes": 8960
+        },
+        {
+          "mode": "echo",
+          "bytes": 8961,
+          "fpga_tx": 8961,
+          "fpga_rx": 8961,
+          "compared_bytes": 8961
+        },
+        {
+          "mode": "echo",
+          "bytes": 65539,
+          "fpga_tx": 65539,
+          "fpga_rx": 65539,
+          "compared_bytes": 65539
+        },
+        {
+          "mode": "receive",
+          "bytes": 1048593,
+          "fpga_tx": 1048593,
+          "fpga_rx": 0,
+          "compared_bytes": 1048593
+        },
+        {
+          "mode": "send",
+          "bytes": 1048593,
+          "fpga_tx": 0,
+          "fpga_rx": 1048593,
+          "compared_bytes": 0
+        }
+      ],
+      "modes": {
+        "receive": {
+          "Gbps": {
+            "median": 23.295843771187553,
+            "minimum": 23.27138074428444,
+            "maximum": 23.37664591659911
+          },
+          "process_cpu_pct": {
+            "median": 67.08019056990888,
+            "minimum": 67.0052822880267,
+            "maximum": 67.38152246203714
+          },
+          "host_busy_cores": {
+            "median": 1.170810869918152,
+            "minimum": 1.1056278543362459,
+            "maximum": 1.177905883007859
+          },
+          "irq_cores": {
+            "median": 0.47379454512047964,
+            "minimum": 0.46067827264010247,
+            "maximum": 0.6051382024296067
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.37664591659911,
+              "seconds": 1.469831841,
+              "process_cpu_pct": 67.08019056990888,
+              "host_busy_cores": 1.1056278543362459,
+              "irq_cores": 0.46067827264010247,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 51338,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2942587,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.27138074428444,
+              "seconds": 1.476480441,
+              "process_cpu_pct": 67.38152246203714,
+              "host_busy_cores": 1.177905883007859,
+              "irq_cores": 0.47379454512047964,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 85468,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2942163,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.295843771187553,
+              "seconds": 1.474929985,
+              "process_cpu_pct": 67.0052822880267,
+              "host_busy_cores": 1.170810869918152,
+              "irq_cores": 0.6051382024296067,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 41817,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 2942348,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            }
+          ]
+        },
+        "send": {
+          "Gbps": {
+            "median": 22.09251279017698,
+            "minimum": 21.97106248627318,
+            "maximum": 22.11984290293335
+          },
+          "process_cpu_pct": {
+            "median": 43.991140178419606,
+            "minimum": 42.64498246629424,
+            "maximum": 44.747005414431015
+          },
+          "host_busy_cores": {
+            "median": 0.5665508591723258,
+            "minimum": 0.5220074715026959,
+            "maximum": 0.6814297713338916
+          },
+          "irq_cores": {
+            "median": 0.13373855325244602,
+            "minimum": 0.07639133729307744,
+            "maximum": 0.15277775977680697
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 22.11984290293335,
+              "seconds": 1.553344599,
+              "process_cpu_pct": 43.991140178419606,
+              "host_busy_cores": 0.6814297713338916,
+              "irq_cores": 0.13373855325244602,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2944040,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474691,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 22.09251279017698,
+              "seconds": 1.555266204,
+              "process_cpu_pct": 42.64498246629424,
+              "host_busy_cores": 0.5665508591723258,
+              "irq_cores": 0.15277775977680697,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943735,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474377,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 21.97106248627318,
+              "seconds": 1.56386331,
+              "process_cpu_pct": 44.747005414431015,
+              "host_busy_cores": 0.5220074715026959,
+              "irq_cores": 0.07639133729307744,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 2943613,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 1474158,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            }
+          ]
+        },
+        "echo": {
+          "Gbps": {
+            "median": 12.115067090592117,
+            "minimum": 11.560538941455205,
+            "maximum": 12.391769982235086
+          },
+          "process_cpu_pct": {
+            "median": 99.7493659879118,
+            "minimum": 98.44041936317669,
+            "maximum": 100.1884379856747
+          },
+          "host_busy_cores": {
+            "median": 1.3240836233597808,
+            "minimum": 1.3099298205903311,
+            "maximum": 1.3571333920751663
+          },
+          "irq_cores": {
+            "median": 0.3623807811300453,
+            "minimum": 0.3205147433359321,
+            "maximum": 0.3914807861755287
+          },
+          "trials": [
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 12.391769982235086,
+              "seconds": 0.693196754,
+              "process_cpu_pct": 100.1884379856747,
+              "host_busy_cores": 1.3099298205903311,
+              "irq_cores": 0.3205147433359321,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 758236,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 815259,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 12.115067090592117,
+              "seconds": 0.709029068,
+              "process_cpu_pct": 99.7493659879118,
+              "host_busy_cores": 1.3240836233597808,
+              "irq_cores": 0.3623807811300453,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 756554,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 808617,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 11.560538941455205,
+              "seconds": 0.743039297,
+              "process_cpu_pct": 98.44041936317669,
+              "host_busy_cores": 1.3571333920751663,
+              "irq_cores": 0.3914807861755287,
+              "sender_mss": 1460,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 765563,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 2,
+                "tx_frames": 863677,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            }
+          ]
+        }
+      },
+      "nic_rx_crc_delta": 0,
+      "fpga_bad_fcs_during_native": 0,
+      "media": {
+        "vendor": "MODULETEK",
+        "part": "SFP-25G-AOC-5M",
+        "nominal": "26000MBd"
+      }
+    },
+    {
+      "profile": 2,
+      "model": "XTCP-25G-Jumbo",
+      "mtu": 9000,
+      "speed_Mbps": 25000,
+      "identity": {
+        "profile": 2,
+        "mac": "02:51:00:03:00:13",
+        "ip": "192.168.10.13",
+        "tcp": 23012,
+        "udp": 4612,
+        "phy": 14371
+      },
+      "kernel": "6.17.0-14-generic",
+      "basic": [
+        {
+          "mode": "echo",
+          "bytes": 1,
+          "fpga_tx": 1,
+          "fpga_rx": 1,
+          "compared_bytes": 1
+        },
+        {
+          "mode": "echo",
+          "bytes": 7,
+          "fpga_tx": 7,
+          "fpga_rx": 7,
+          "compared_bytes": 7
+        },
+        {
+          "mode": "echo",
+          "bytes": 8,
+          "fpga_tx": 8,
+          "fpga_rx": 8,
+          "compared_bytes": 8
+        },
+        {
+          "mode": "echo",
+          "bytes": 15,
+          "fpga_tx": 15,
+          "fpga_rx": 15,
+          "compared_bytes": 15
+        },
+        {
+          "mode": "echo",
+          "bytes": 16,
+          "fpga_tx": 16,
+          "fpga_rx": 16,
+          "compared_bytes": 16
+        },
+        {
+          "mode": "echo",
+          "bytes": 17,
+          "fpga_tx": 17,
+          "fpga_rx": 17,
+          "compared_bytes": 17
+        },
+        {
+          "mode": "echo",
+          "bytes": 1460,
+          "fpga_tx": 1460,
+          "fpga_rx": 1460,
+          "compared_bytes": 1460
+        },
+        {
+          "mode": "echo",
+          "bytes": 1461,
+          "fpga_tx": 1461,
+          "fpga_rx": 1461,
+          "compared_bytes": 1461
+        },
+        {
+          "mode": "echo",
+          "bytes": 8960,
+          "fpga_tx": 8960,
+          "fpga_rx": 8960,
+          "compared_bytes": 8960
+        },
+        {
+          "mode": "echo",
+          "bytes": 8961,
+          "fpga_tx": 8961,
+          "fpga_rx": 8961,
+          "compared_bytes": 8961
+        },
+        {
+          "mode": "echo",
+          "bytes": 65539,
+          "fpga_tx": 65539,
+          "fpga_rx": 65539,
+          "compared_bytes": 65539
+        },
+        {
+          "mode": "receive",
+          "bytes": 1048593,
+          "fpga_tx": 1048593,
+          "fpga_rx": 0,
+          "compared_bytes": 1048593
+        },
+        {
+          "mode": "send",
+          "bytes": 1048593,
+          "fpga_tx": 0,
+          "fpga_rx": 1048593,
+          "compared_bytes": 0
+        }
+      ],
+      "modes": {
+        "receive": {
+          "Gbps": {
+            "median": 24.701873244940025,
+            "minimum": 24.70078561108649,
+            "maximum": 24.708607295337696
+          },
+          "process_cpu_pct": {
+            "median": 48.530274542100145,
+            "minimum": 46.830558589793874,
+            "maximum": 48.91425098498696
+          },
+          "host_busy_cores": {
+            "median": 0.7033477647987086,
+            "minimum": 0.5983179578742628,
+            "maximum": 0.7055883958500684
+          },
+          "irq_cores": {
+            "median": 0.2257882866720219,
+            "minimum": 0.1478197307689355,
+            "maximum": 0.2532051953275351
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 24.708607295337696,
+              "seconds": 1.390597944,
+              "process_cpu_pct": 48.530274542100145,
+              "host_busy_cores": 0.7055883958500684,
+              "irq_cores": 0.2257882866720219,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 86108,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 479433,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 24.70078561108649,
+              "seconds": 1.391038287,
+              "process_cpu_pct": 46.830558589793874,
+              "host_busy_cores": 0.5983179578742628,
+              "irq_cores": 0.1478197307689355,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 86009,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 479445,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 24.701873244940025,
+              "seconds": 1.390977039,
+              "process_cpu_pct": 48.91425098498696,
+              "host_busy_cores": 0.7033477647987086,
+              "irq_cores": 0.2532051953275351,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 86284,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 479439,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 4294967313,
+              "fpga_rx": 0
+            }
+          ]
+        },
+        "send": {
+          "Gbps": {
+            "median": 24.07704482016996,
+            "minimum": 23.796264325125986,
+            "maximum": 24.310949778131317
+          },
+          "process_cpu_pct": {
+            "median": 38.16331742859339,
+            "minimum": 36.39775752991456,
+            "maximum": 38.94571625295529
+          },
+          "host_busy_cores": {
+            "median": 0.5845965997360292,
+            "minimum": 0.5586096539241004,
+            "maximum": 0.7048423721192202
+          },
+          "irq_cores": {
+            "median": 0.21799401128745383,
+            "minimum": 0.21752431618084805,
+            "maximum": 0.31013064373245686
+          },
+          "trials": [
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 24.07704482016996,
+              "seconds": 1.427074575,
+              "process_cpu_pct": 38.16331742859339,
+              "host_busy_cores": 0.5586096539241004,
+              "irq_cores": 0.21799401128745383,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 479726,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 241091,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 24.310949778131317,
+              "seconds": 1.413344144,
+              "process_cpu_pct": 38.94571625295529,
+              "host_busy_cores": 0.7048423721192202,
+              "irq_cores": 0.31013064373245686,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 479783,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 241116,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            },
+            {
+              "bytes": 4294967313,
+              "payload_Gbps": 23.796264325125986,
+              "seconds": 1.44391313,
+              "process_cpu_pct": 36.39775752991456,
+              "host_busy_cores": 0.5845965997360292,
+              "irq_cores": 0.21752431618084805,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 479806,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 241482,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 0,
+              "fpga_rx": 4294967313
+            }
+          ]
+        },
+        "echo": {
+          "Gbps": {
+            "median": 16.419213623828853,
+            "minimum": 16.34608184409501,
+            "maximum": 21.94189389332912
+          },
+          "process_cpu_pct": {
+            "median": 76.68213316733707,
+            "minimum": 76.05686062218447,
+            "maximum": 101.36976570260006
+          },
+          "host_busy_cores": {
+            "median": 0.951215168575076,
+            "minimum": 0.7904327384410309,
+            "maximum": 1.3618222827810482
+          },
+          "irq_cores": {
+            "median": 0.2642264357152989,
+            "minimum": 0.12295620375749369,
+            "maximum": 0.47783237992317484
+          },
+          "trials": [
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 16.34608184409501,
+              "seconds": 0.525504204,
+              "process_cpu_pct": 76.05686062218447,
+              "host_busy_cores": 0.951215168575076,
+              "irq_cores": 0.2642264357152989,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 127092,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 136616,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 21.94189389332912,
+              "seconds": 0.391485565,
+              "process_cpu_pct": 101.36976570260006,
+              "host_busy_cores": 1.3618222827810482,
+              "irq_cores": 0.47783237992317484,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 125905,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 127560,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            },
+            {
+              "bytes": 1073741841,
+              "payload_Gbps": 16.419213623828853,
+              "seconds": 0.523163589,
+              "process_cpu_pct": 76.68213316733707,
+              "host_busy_cores": 0.7904327384410309,
+              "irq_cores": 0.12295620375749369,
+              "sender_mss": 8960,
+              "host_retransmits": 0,
+              "core_delta": {
+                "rx_frames": 127171,
+                "rx_bad_fcs": 0,
+                "rx_dropped": 0,
+                "bad_ip": 0,
+                "bad_transport": 0,
+                "retransmits": 0,
+                "tx_frames": 132751,
+                "tx_overflows": 0,
+                "underflows": 0
+              },
+              "fpga_tx": 1073741841,
+              "fpga_rx": 1073741841
+            }
+          ]
+        }
+      },
+      "nic_rx_crc_delta": 0,
+      "fpga_bad_fcs_during_native": 0,
+      "media": {
+        "vendor": "MODULETEK",
+        "part": "SFP-25G-AOC-5M",
+        "nominal": "26000MBd"
+      }
+    }
+  ],
+  "initial_10g_offrate_observation": {
+    "cable_vendor": "MODULETEK",
+    "cable_pn": "SFP-25G-AOC-5M",
+    "nic_rx_crc_delta": 63,
+    "fpga_rx_bad_fcs_delta": 17,
+    "failed_receive_bytes": 304528337,
+    "failed_receive_seconds": 45.379126802
+  }
+}

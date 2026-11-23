@@ -1,0 +1,16 @@
+XTCP
+Copyright 2026 Tao Xue
+
+The original XTCP HDL, integration and host software are distributed under the
+Apache License, Version 2.0. A copy of the license accompanies this distribution.
+
+This product includes software developed by Alex Forencich. The original MIT
+copyright notices and permission texts are present in the individual source
+files, the mac and axis COPYING files under sdk/ip_repo/xtcp/hdl/third_party,
+and sdk/tools/axis_async_fifo.tcl. See sdk/THIRD_PARTY.md for the inventory.
+
+The board build scripts use AMD Vivado, XPM, GT, debug logic and the 10G/25G
+Ethernet PCS/PMA. These are supplied by the user's AMD installation under
+the applicable AMD terms. The separately distributed RDX051 bitstreams
+incorporate AMD components and are supplied solely for programming the
+corresponding AMD/Xilinx KU5P device on the RDX051 board.
